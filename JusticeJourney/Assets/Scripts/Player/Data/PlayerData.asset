@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f795fa2c2b88824fb3eb6ab975d6100, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  _maxHealth: 5
+  _initialMaxHealth: 5
+  _healthIncreaseAmount: 1
+  _movementVelocity: 10
+  _parryMovementVelocity: 5
+  _jumpVelocity: 15
+  _amountOfJumps: 2
+  _wallJumpVelocity: 20
+  _wallJumpTime: 0.4
+  _wallJumpAngle: {x: 1, y: 2}
+  _coyoteTime: 0.2
+  _variableJumpHeightMultiplier: 0.5
+  _wallSlideVelocity: 2
+  _wallClimbVelocity: 3
+  _startOffset: {x: 0.4, y: 0.8}
+  _stopOffset: {x: 0.4, y: 0.8}
+  _dashCooldown: 1
+  _maxHoldTime: 1
+  _holdTimeScale: 0.25
+  _dashTime: 0.25
+  _dashVelocity: 30
+  _drag: 10
+  _dashEndYMultiplier: 0.2
+  _distBetweenAfterImages: 0.5
+  _dashDamage: 8
+  _crouchMovementVelocity: 3.5
+  _crouchColliderHeight: 0.8
+  _standColliderHeight: 1.6
+  _groundCheckRadius: 0.34
+  _wallCheckDistance: 0.7
+  _ground:
+    serializedVersion: 2
+    m_Bits: 64
